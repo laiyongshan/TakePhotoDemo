@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.suncere.app.takephotodemo.MainActivity">
+
+    <Button
+        android:id="@+id/Matisse_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Matisse 图片选择器"
+        />
+
+    <Button
+        android:id="@+id/navitive_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Navitive 图片选择器"
+        />
+
+
+    <Button
+        android:id="@+id/to_fragment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="在fragemnt中使用"
+        />
+
+
+    <ImageView
+        android:id="@+id/result_iv"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_margin="30dp"
+        android:scaleType="fitCenter"
+        />
+
+
+</LinearLayout>
